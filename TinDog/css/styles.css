@@ -1,160 +1,169 @@
-body {
-  color: #40514E;
-  margin: 0;
+body{
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
-h1 {
-  color: #66BFBF;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-}
-
-h2{
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  padding-bottom: 10px;
-}
-
-h3{
-  color:#11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
-span{
-  text-decoration: underline;
-}
-
-hr{
-  border-style:none;
-  border-top-style: dotted;
-  border-color: #EAF6F6;
-  border-width: 10px;
-  width: 5%;
-  margin: 100px auto 100px auto;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 p{
-  line-height: 2;
+  color:#8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
 }
 
 
-.top-container {
-  background-color: #EAF6F6;
-  padding-top:100px;
-  position: relative;
-}
+/* Title Section */
 
-.middle-container {
-  margin: 100px 0;
-
-}
-
-.bottom-container {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.footer-link{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-.footer-link:hover{
-  color: #EAF6F6;
-}
-
-.pro{
-  font-weight: normal;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
+#title .container-fluid{
+  padding: 3% 15% 7%;
   text-align: left;
 }
+/* Title-Image */
 
-.code-img{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%
 }
 
-.programmer-img{
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+/* Feature icons */
+
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
-.code-description{
-  clear: left;
+.feature-title{
+  font-size: 1.5rem;
 }
 
-.programmer-description{
-  clear: right;
+.icon{
+  color: #EF8172;
+  margin-bottom: 1rem;
 }
 
-.loki_description{
-  width: 30%;
-  margin: auto;
+.icon:hover{
+  color: #ff4c68;
 }
 
-.contact-message{
-  width: 40%;
-  margin: 40px auto 60px;
+.feature-box{
+  padding: 5%;
 }
 
-.get-in-touch{
-  margin-top: 50px;
-  margin-bottom: 50px;
+/* Testimonial section */
+
+#testimonials{
+  background-color: #EF8172;
 }
 
-.btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.copy-right{
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:1046px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
