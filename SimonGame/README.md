@@ -16,7 +16,7 @@ I have created this Simon Game Website by learning the concepts from Course.
 ### Links
 
 - Solution URL: [SimonGame-Code](https://github.com/god-of-mischief/Web-Development/tree/main/SimonGame)
-- Live Site URL: [Drum](https://god-of-mischief.github.io/Web-Development/SimonGame/index.html)
+- Live Site URL: [SimonGame](https://god-of-mischief.github.io/Web-Development/SimonGame/index.html)
 
 ## My process
 
