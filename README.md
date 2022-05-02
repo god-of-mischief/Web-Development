@@ -9,3 +9,4 @@ This Repository contains all the projects that are done in the Web Development B
 3. TinDog - [Link](https://god-of-mischief.github.io/Web-Development/TinDog/index.html)
 4. Dice - [Link](https://god-of-mischief.github.io/Web-Development/Dice/index.html)
 5. Drum - [Link](https://god-of-mischief.github.io/Web-Development/Drum/index.html)
+6. Simon Game - [Link](https://god-of-mischief.github.io/Web-Development/SimonGame/index.html)
