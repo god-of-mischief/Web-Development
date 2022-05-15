@@ -4,9 +4,10 @@ This Repository contains all the projects that are done in the Web Development B
 
 ## Projects
 
-1. CV - [Link](https://god-of-mischief.github.io/Web-Development/cv/index.html)
-2. CV2 - [Link](https://god-of-mischief.github.io/Web-Development/cv2/index.html)
-3. TinDog - [Link](https://god-of-mischief.github.io/Web-Development/TinDog/index.html)
-4. Dice - [Link](https://god-of-mischief.github.io/Web-Development/Dice/index.html)
-5. Drum - [Link](https://god-of-mischief.github.io/Web-Development/Drum/index.html)
-6. Simon Game - [Link](https://god-of-mischief.github.io/Web-Development/SimonGame/index.html)
+- CV - [Link](https://god-of-mischief.github.io/Web-Development/cv/index.html)
+- CV2 - [Link](https://god-of-mischief.github.io/Web-Development/cv2/index.html)
+- TinDog - [Link](https://god-of-mischief.github.io/Web-Development/TinDog/index.html)
+- Dice - [Link](https://god-of-mischief.github.io/Web-Development/Dice/index.html)
+- Drum - [Link](https://god-of-mischief.github.io/Web-Development/Drum/index.html)
+- Simon Game - [Link](https://god-of-mischief.github.io/Web-Development/SimonGame/index.html)
+- Newsletter Signup page - [Link](https://radiant-headland-10327.herokuapp.com/)
