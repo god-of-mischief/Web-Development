@@ -9,7 +9,7 @@ Till now we have deployed our static websites using GitHub Pages. But now we are
 - Download the Heroku Command Line Interface (CLI) from [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up).
 - Open a terminal. e.g. Hyper.
 - Login to heroku, by following command
-  ```
+  ```console
   $ heroku login
   heroku: Press any key to open up the browser to login or q to exit:
   Opening browser to https://cli-auth.heroku.com/auth/cli/browser/***
@@ -28,7 +28,7 @@ Till now we have deployed our static websites using GitHub Pages. But now we are
   web: node app.js
   ```
 - cd to our project folder in hyper terminal and follow the following commands one-by-one.
-  ```
+  ```console
   $ git init # initialising git
   
   $ git add . # adding files to git
@@ -36,12 +36,12 @@ Till now we have deployed our static websites using GitHub Pages. But now we are
   $ git commit -m "first commit" # commiting 
   ```
 - To Deploy the app
-  ```
+  ```console
   $ heroku create
   ```
 - You can find the address where your app is created.
 - Next, 
-  ```
+  ```console
   $ git push heroku master
   ```
 - Now you can find your website at previously obtained address.
