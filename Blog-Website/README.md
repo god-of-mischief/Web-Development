@@ -46,3 +46,12 @@
     console.log(data);
   });
   ```
+
+## Redirecting
+
+- To redirect a post route to a get route or a root route,
+  ```js
+  app.post("/fromPostRoute", function(req, res){
+    res.redirect("/toGetRoute");
+  });
+  ```
