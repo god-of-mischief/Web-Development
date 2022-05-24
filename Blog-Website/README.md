@@ -19,3 +19,13 @@
     res.render("home",{toBeRendered: element});
   });
   ```
+
+## Layouts.
+
+- EJS does not specifically support blocks, but layouts can be implemented by including headers and footers, like so:
+  ```html
+  <%- include('header'); -%>
+  <h1>Title</h1>
+  <p>My page</p>
+  <%- include('footer'); -%>
+  ```
