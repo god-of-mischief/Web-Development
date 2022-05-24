@@ -29,3 +29,20 @@
   <p>My page</p>
   <%- include('footer'); -%>
   ```
+
+## Fetch data from text input field:
+
+- To make a post request to server, we have to put the input fields inside a form.
+  ```html
+  <form action="/" method="post">
+  </form>
+  ```
+- When we click submit then we can pass over user typed data into our app.js
+- **The input field must have name.**
+- To handle the post request.
+  ```js
+  app.post("/", function(req, res){
+    var data = req.body.inputFieldName;
+    console.log(data);
+  });
+  ```
