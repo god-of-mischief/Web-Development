@@ -55,3 +55,12 @@
     res.redirect("/toGetRoute");
   });
   ```
+
+## Writing a code in .ejs file
+
+- If there is a need to write a code like a for loop or we need to do a calculation, then every line of code should be enclosed in ejs scriplet tag.
+  ```ejs
+  <% for(var i=0;i<array.length;i++){ %>
+  <%    console.log(array[i]); %>
+  <% } %>
+  ```
