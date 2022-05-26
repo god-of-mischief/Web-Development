@@ -79,3 +79,18 @@
     res.send(req.params);
   });
   ```
+
+## Lodash.
+
+- To convert any string to space seperated words, to lower case.
+- We need to install a npm package called lodash.
+  ```js
+  _.lowerCase('--Foo-Bar--');
+  // => 'foo bar'
+ 
+  _.lowerCase('fooBar');
+  // => 'foo bar'
+ 
+  _.lowerCase('__FOO_BAR__');
+  // => 'foo bar'
+  ```
